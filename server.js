@@ -146,5 +146,5 @@ app.delete('/wishlist/remove', function(request, response)
 
 app.listen(3004, function()
 {
-    console.log("Swag Shop Server running on port: 3004!!!");
+    console.log("ShopSite Server running on port: 3004!!!");
 });
