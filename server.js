@@ -2,8 +2,9 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+const {URI} = require('./secrets'); // thsi should be replaced with env varaible
 
-const MONGODB_URI = "Dummy URI XD"; // replace with your mongodb uri
+const MONGODB_URI = URI; // replace with your mongodb uri
 
 mongoose.connect(MONGODB_URI);
 
